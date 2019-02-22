@@ -1,0 +1,22 @@
+﻿  Building 'regfltr' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Capture.c
+  Context.c
+  driver.c
+  Log.c
+  MultiAlt.c
+  Post.c
+  Pre.c
+  regfltr.c
+  tool.c
+  TxR.c
+  TxRUtil.c
+  Util.c
+  Version.c
+  Generating Code...
+  regfltr.vcxproj -> D:\RegFltr-master\RegFltr-master\sys\x64\Debug\regfltr.sys
+  regfltr.vcxproj -> x64\Debug\regfltr.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: D:\RegFltr-master\RegFltr-master\sys\x64\Debug\regfltr.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  

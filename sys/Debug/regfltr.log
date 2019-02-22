@@ -1,0 +1,22 @@
+﻿  Building 'regfltr' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Capture.c
+  Context.c
+  driver.c
+  Log.c
+  MultiAlt.c
+  Post.c
+  Pre.c
+  regfltr.c
+  tool.c
+  TxR.c
+  TxRUtil.c
+  Util.c
+  Version.c
+  Generating Code...
+Log.obj : error LNK2019: unresolved external symbol _WskRegister@8 referenced in function _OpenLogFile@0
+Log.obj : error LNK2019: unresolved external symbol _WskCaptureProviderNPI@12 referenced in function _OpenLogFile@0
+Log.obj : error LNK2019: unresolved external symbol _WskReleaseProviderNPI@4 referenced in function _CloseLogFile@0
+Log.obj : error LNK2019: unresolved external symbol _WskDeregister@4 referenced in function _CloseLogFile@0
+Log.obj : error LNK2001: unresolved external symbol _NPI_WSK_INTERFACE_ID
+tool.obj : error LNK2019: unresolved external symbol __imp__SecLookupAccountSid@24 referenced in function _GetUserID@4
+Debug\regfltr.sys : fatal error LNK1120: 6 unresolved externals

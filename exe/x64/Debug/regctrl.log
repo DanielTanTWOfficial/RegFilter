@@ -1,0 +1,9 @@
+﻿  Building 'regctrl' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  capture.c
+  post.c
+  pre.c
+  regctrl.c
+  util.c
+  Generating Code...
+  regctrl.vcxproj -> D:\RegFltr-master\RegFltr-master\exe\x64\Debug\regctrl.exe
+  regctrl.vcxproj -> x64\Debug\regctrl.pdb (Full PDB)
